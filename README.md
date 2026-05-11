@@ -57,7 +57,7 @@ preceding its landmark merger with American Airlines in December 2013.
 ### Why US Airways 2010–2013?
 
 - ✅ Complete operational lifecycle — post-recession recovery through merger
-- ✅ Three major hubs: Philadelphia (PHL), Charlotte (CHL), Phoenix (PHX)
+- ✅ Three major hubs: Philadelphia (PHL), Charlotte (CLT), Phoenix (PHX)
 - ✅ Rich publicly available BTS datasets covering all four years
 - ✅ Financially significant period: fuel price volatility, hedging strategy,
   operational optimisation
