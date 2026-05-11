@@ -192,11 +192,11 @@ AeroInsight_BI/
 │       ├── p52_quarterly.rds
 │       └── t100_quarterly.rds
 │
-└── README.md       
+├── README.md             
 │
-└── LICENSE
+├── LICENSE                # MIT License
 │
-└── .gitignore  
+└── .gitignore             # files that are ignored due to large datasets
 ```
 
 ---
@@ -334,14 +334,17 @@ The dashboard will open in your browser at `http://127.0.0.1:XXXX`
 ---
 
 ## 🎓 Academic Context
-
+  
 **Project Title:**
 AeroInsight BI – Flight Operations & Analytics Using Data Analysis:
 A Case Study on US Airways Inc.
 
 **Program:** Master of Science in Data Science
+
 **Institution:** Chandigarh University (CU Online)
+
 **Academic Year:** 2024–2025
+
 **Guide:** Mr.Kunwar Saurabh Bisen
 
 **Project Objectives:**
@@ -363,8 +366,8 @@ A Case Study on US Airways Inc.
 
 - **Raw data files** (`data/raw/`) are **not included** in this repository
   due to file size. Download them manually following Step 4 above.
-- **Processed RDS files** (`data/processed/`) are also git-ignored.
-  Run `data_prep.R` and `kpi_calc.R` to regenerate them.
+- **Processed RDS files** (`data/processed/`) are in this repository for reference.
+  Run `data_prep.R` and `kpi_calc.R` to regenerate them after downlaoding the raw datasets.
 - The `.gitignore` file is pre-configured to exclude large data files.
 
 ---
@@ -378,9 +381,11 @@ All BTS data used is publicly available under US government open data policy.
 
 ## 👩‍💻 Author
 
-**[Vanshika Aggarwal]**
-**MSc Data Science | Chandigarh University**
-**Guide: [Mr.Kunwar Saurabh Bisen]**
+**Vanshika Aggarwal**
+
+**M.Sc. Data Science | Chandigarh University**
+
+**Guide: Mr.Kunwar Saurabh Bisen**
 
 ---
 
