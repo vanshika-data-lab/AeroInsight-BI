@@ -1,10 +1,18 @@
-# ✈️ AeroInsight BI
+<div align="center"> 
+  
+  # ✈️ AeroInsight BI
+</div>
+
+<div align="center"> 
+  
 ### Flight Operations & Analytics — A Case Study on US Airways Inc.
+**Guided By: Mr. Kunwar Saurabh Bisen** 
+> **M.Sc. Data Science Project** | **Chandigarh University** | **2024–2026**
 
-> **MSc Data Science Project** | Chandigarh University | 2024–2025
-> Built with R Shiny · Plotly · Leaflet · BTS Data · Live API Integration
+> **Built with R Shiny · Plotly · Leaflet · BTS Data · Live API Integration**
 
----
+</div>
+
 
 <div align="center">
 
@@ -171,21 +179,7 @@ AeroInsight_BI/
 │   └── custom.css           # Custom CSS styling (Barlow fonts, brand colors)
 │
 ├── data/
-│   ├── raw/
-│   │   ├── t100/            # T-100 CSV files (download manually)
-│   │   │   ├── t100_2010.csv
-│   │   │   ├── t100_2011.csv
-│   │   │   ├── t100_2012.csv
-│   │   │   └── t100_2013.csv
-│   │   ├── p52/             # P-5.2 CSV files (download manually)
-│   │   │   ├── p52_2010.csv
-│   │   │   └── ...
-│   │   ├── p12a/            # P-12A CSV files (download manually)
-│   │   │   ├── p12a_2010.csv
-│   │   │   └── ...
-│   │   └── ontime/          # Created automatically by data_prep.R
-│   │
-│   └── processed/           # Auto-generated RDS files (git-ignored)
+│   └── processed/           # Auto-generated RDS files 
 │       ├── t100_clean.rds
 │       ├── p52_clean.rds
 │       ├── p12a_clean.rds
@@ -198,7 +192,11 @@ AeroInsight_BI/
 │       ├── p52_quarterly.rds
 │       └── t100_quarterly.rds
 │
-└── README.md
+├── README.md             
+│
+├── LICENSE                # MIT License
+│
+└── .gitignore             # files that are ignored due to large datasets
 ```
 
 ---
@@ -336,14 +334,18 @@ The dashboard will open in your browser at `http://127.0.0.1:XXXX`
 ---
 
 ## 🎓 Academic Context
-
+  
 **Project Title:**
 AeroInsight BI – Flight Operations & Analytics Using Data Analysis:
 A Case Study on US Airways Inc.
 
 **Program:** Master of Science in Data Science
+
 **Institution:** Chandigarh University (CU Online)
+
 **Academic Year:** 2024–2025
+
+**Guide:** Mr.Kunwar Saurabh Bisen
 
 **Project Objectives:**
 1. To explore the use of AeroInsight BI in analyzing flight operations data
@@ -364,8 +366,8 @@ A Case Study on US Airways Inc.
 
 - **Raw data files** (`data/raw/`) are **not included** in this repository
   due to file size. Download them manually following Step 4 above.
-- **Processed RDS files** (`data/processed/`) are also git-ignored.
-  Run `data_prep.R` and `kpi_calc.R` to regenerate them.
+- **Processed RDS files** (`data/processed/`) are in this repository for reference.
+  Run `data_prep.R` and `kpi_calc.R` to regenerate them after downlaoding the raw datasets.
 - The `.gitignore` file is pre-configured to exclude large data files.
 
 ---
@@ -379,16 +381,17 @@ All BTS data used is publicly available under US government open data policy.
 
 ## 👩‍💻 Author
 
-**[Your Full Name]**
-MSc Data Science | Chandigarh University
-Enrollment: [XXXXXXXX]
-Guide: [Guide Name]
+**Vanshika Aggarwal**
+
+**M.Sc. Data Science | Chandigarh University**
+
+**Guide: Mr.Kunwar Saurabh Bisen**
 
 ---
 
 <div align="center">
 
-*Built with ❤️ using R Shiny | Data: Bureau of Transportation Statistics*
+*Built with guidance using R Shiny | Data: Bureau of Transportation Statistics*
 
 **[⭐ Star this repo if you found it helpful]**
 
