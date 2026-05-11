@@ -30,6 +30,7 @@
 
 - [About the Project](#-about-the-project)
 - [Live Demo](#-live-demo)
+- [Demo Video](#-demo-video)
 - [Key Findings](#-key-findings)
 - [Dashboard Features](#-dashboard-features)
 - [Data Sources](#-data-sources)
@@ -70,7 +71,11 @@ preceding its landmark merger with American Airlines in December 2013.
 
 > 🔗 **Dashboard:** [your-app-name.shinyapps.io/AeroInsight-BI](https://your-app.shinyapps.io/AeroInsight-BI)
 
-> *Replace with your actual shinyapps.io link after deployment*
+---
+
+## 📸 Demo Video
+
+> 🔗 **Demo Video of Dashboard:** [Video](https://github.com/vanshika-data-lab/AeroInsight-BI/blob/main/DemoVideo_AeroInsight%20BI.mp4)
 
 ---
 
@@ -169,6 +174,8 @@ AeroInsight_BI/
 ├── app.R                    # Main Shiny application (UI + Server)
 ├── global.R                 # Data loader & package imports (runs once)
 ├── AeroInsight_BI.Rproj     # RStudio project file
+├── DemoVideo_AeroInsight BI.mp4         # Demo video
+├── AeroInsight BI.pdf                   # Project Report
 │
 ├── R/
 │   ├── data_prep.R          # Data ingestion & cleaning pipeline
