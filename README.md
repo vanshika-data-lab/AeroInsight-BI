@@ -37,6 +37,7 @@
 - [Project Structure](#-project-structure)
 - [Installation & Setup](#-installation--setup)
 - [Running the Dashboard](#-running-the-dashboard)
+- [Deployment on shinyapps.io](#-deployment-on-shinyapps.io)
 - [KPI Definitions](#-kpi-definitions)
 - [Technology Stack](#-technology-stack)
 - [Academic Context](#-academic-context)
@@ -304,6 +305,67 @@ shiny::runApp()
 Or press the **Run App** button in RStudio.
 
 The dashboard will open in your browser at `http://127.0.0.1:XXXX`
+
+---
+
+## ☁️ Deployment on shinyapps.io
+
+### Prerequisites
+- Free account at [shinyapps.io](https://shinyapps.io)
+- `rsconnect` package installed
+
+### Step 1 — Install rsconnect
+```r
+install.packages("rsconnect")
+```
+
+### Step 2 — Configure your account
+Go to shinyapps.io → Account → Tokens → Show → Copy, then run:
+```r
+rsconnect::setAccountInfo(
+  name   = "YOUR-SHINYAPPS-USERNAME",
+  token  = "YOUR_TOKEN",
+  secret = "YOUR_SECRET"
+)
+```
+
+### Step 3 — Create `.rscignore` file
+Create a file named `.rscignore` in the project root:
+```
+data/raw
+.Rproj.user
+.Rhistory
+.RDataTmp
+*.csv
+```
+
+### Step 4 — Deploy
+```r
+library(rsconnect)
+rsconnect::deployApp(
+  appDir  = getwd(),
+  appName = "AeroInsight-BI",
+  appTitle = "AeroInsight BI - US Airways Analytics",
+  launch.browser = TRUE
+)
+```
+
+### Update an existing deployment
+```r
+rsconnect::deployApp(
+  appDir     = getwd(),
+  appName    = "AeroInsight-BI",
+  forceUpdate = TRUE
+)
+```
+
+### View deployment logs
+```r
+rsconnect::showLogs("AeroInsight-BI")
+```
+
+> **Note:** Deployment takes 5–15 minutes on first run.
+> The free tier on shinyapps.io allows 25 active hours/month.
 
 ---
 
