@@ -1,10 +1,18 @@
-# ✈️ AeroInsight BI
+<div align="center"> 
+  
+  # ✈️ AeroInsight BI
+</div>
+
+<div align="center"> 
+  
 ### Flight Operations & Analytics — A Case Study on US Airways Inc.
+**Guided By: Mr. Kunwar Saurabh Bisen** 
+> **M.Sc. Data Science Project** | **Chandigarh University** | **2024–2026**
 
-> **MSc Data Science Project** | Chandigarh University | 2024–2025
-> Built with R Shiny · Plotly · Leaflet · BTS Data · Live API Integration
+> **Built with R Shiny · Plotly · Leaflet · BTS Data · Live API Integration**
 
----
+</div>
+
 
 <div align="center">
 
@@ -49,7 +57,7 @@ preceding its landmark merger with American Airlines in December 2013.
 ### Why US Airways 2010–2013?
 
 - ✅ Complete operational lifecycle — post-recession recovery through merger
-- ✅ Three major hubs: Philadelphia (PHL), Charlotte (CLT), Phoenix (PHX)
+- ✅ Three major hubs: Philadelphia (PHL), Charlotte (CHL), Phoenix (PHX)
 - ✅ Rich publicly available BTS datasets covering all four years
 - ✅ Financially significant period: fuel price volatility, hedging strategy,
   operational optimisation
@@ -171,21 +179,7 @@ AeroInsight_BI/
 │   └── custom.css           # Custom CSS styling (Barlow fonts, brand colors)
 │
 ├── data/
-│   ├── raw/
-│   │   ├── t100/            # T-100 CSV files (download manually)
-│   │   │   ├── t100_2010.csv
-│   │   │   ├── t100_2011.csv
-│   │   │   ├── t100_2012.csv
-│   │   │   └── t100_2013.csv
-│   │   ├── p52/             # P-5.2 CSV files (download manually)
-│   │   │   ├── p52_2010.csv
-│   │   │   └── ...
-│   │   ├── p12a/            # P-12A CSV files (download manually)
-│   │   │   ├── p12a_2010.csv
-│   │   │   └── ...
-│   │   └── ontime/          # Created automatically by data_prep.R
-│   │
-│   └── processed/           # Auto-generated RDS files (git-ignored)
+│   └── processed/           # Auto-generated RDS files 
 │       ├── t100_clean.rds
 │       ├── p52_clean.rds
 │       ├── p12a_clean.rds
@@ -198,7 +192,11 @@ AeroInsight_BI/
 │       ├── p52_quarterly.rds
 │       └── t100_quarterly.rds
 │
-└── README.md
+└── README.md       
+│
+└── LICENSE
+│
+└── .gitignore  
 ```
 
 ---
@@ -344,6 +342,7 @@ A Case Study on US Airways Inc.
 **Program:** Master of Science in Data Science
 **Institution:** Chandigarh University (CU Online)
 **Academic Year:** 2024–2025
+**Guide:** Mr.Kunwar Saurabh Bisen
 
 **Project Objectives:**
 1. To explore the use of AeroInsight BI in analyzing flight operations data
@@ -379,16 +378,15 @@ All BTS data used is publicly available under US government open data policy.
 
 ## 👩‍💻 Author
 
-**[Your Full Name]**
-MSc Data Science | Chandigarh University
-Enrollment: [XXXXXXXX]
-Guide: [Guide Name]
+**[Vanshika Aggarwal]**
+**MSc Data Science | Chandigarh University**
+**Guide: [Mr.Kunwar Saurabh Bisen]**
 
 ---
 
 <div align="center">
 
-*Built with ❤️ using R Shiny | Data: Bureau of Transportation Statistics*
+*Built with guidance using R Shiny | Data: Bureau of Transportation Statistics*
 
 **[⭐ Star this repo if you found it helpful]**
 
