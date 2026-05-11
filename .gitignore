@@ -1,0 +1,38 @@
+# ============================================================
+# .gitignore for AeroInsight BI
+# ============================================================
+
+# Large raw data files - download manually from BTS
+data/raw/
+
+# RStudio project files
+.Rproj.user/
+.Rhistory
+.RData
+.RDataTmp
+.Ruserdata
+*.Rproj.user
+
+# R environment
+.Renviron
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary R files
+*~
+*.swp
+*.tmp
+
+# rsconnect deployment folder (contains account tokens)
+# IMPORTANT: never commit this
+rsconnect/
+
+# Log files
+*.log
+
+# ZIP files from On-Time download
+data/raw/ontime/*.zip
+data/raw/ontime/*.csv
