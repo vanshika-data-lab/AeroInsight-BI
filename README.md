@@ -29,7 +29,6 @@
 ## 📋 Table of Contents
 
 - [About the Project](#-about-the-project)
-- [Live Demo](#-live-demo)
 - [Demo Video](#-demo-video)
 - [Key Findings](#-key-findings)
 - [Dashboard Features](#-dashboard-features)
@@ -65,12 +64,6 @@ preceding its landmark merger with American Airlines in December 2013.
   operational optimisation
 - ✅ Natural analytical endpoint: CASM declining in 2013 Q3–Q4 signals
   pre-merger optimisation
-
----
-
-## 🌐 Live Demo
-
-> 🔗 **Dashboard:** [your-app-name.shinyapps.io/AeroInsight-BI](https://your-app.shinyapps.io/AeroInsight-BI)
 
 ---
 
